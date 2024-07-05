@@ -1,0 +1,7 @@
+to-do-list/public/vite.svg
+to-do-list/.eslintrc.cjs
+to-do-list/node-modules
+to-do-list/src/assets/react.svg
+to-do-list/.vscode/*
+to-do-list/!.vscode/extensions.json
+to-do-list/*.log
