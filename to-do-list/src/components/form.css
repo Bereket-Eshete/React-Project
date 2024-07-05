@@ -1,0 +1,32 @@
+
+.todoform{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.moderInput{
+    border: none;
+    width: 100%;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
+.moderInput:focus{
+    outline: none;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7ca18;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+}
+.cont{
+    display: flex;
+}
