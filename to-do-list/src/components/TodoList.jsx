@@ -1,10 +1,10 @@
 import Todoitem from "./Todoitem"
-const TodoList =({todos})=>{
+import './todolist.css'
+const TodoList =({todos,setTodos})=>{
     return(
-        <>
-        {todos.map((item)=>(<Todoitem item={item} key={item}/>))}
-   
-        </>
+        <div className="list">
+        {todos.map((item)=>(<Todoitem setTodos={setTodos} item={item} key={item} todos={todos} />))}
+        </div>
     )
 }
 export default TodoList

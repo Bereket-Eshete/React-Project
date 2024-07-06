@@ -1,0 +1,33 @@
+.head{
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.iteam1{
+    font-weight: bold;
+    padding: 20px;
+}
+.line{
+    border: 1px solid #f4f4f4;
+}
+.btn1{
+    float: right;
+    color: white;
+    background-color: #f7ca35;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+   margin-top: -5px;
+   cursor: pointer;
+}
+/* 
+}
+.head{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+} */
