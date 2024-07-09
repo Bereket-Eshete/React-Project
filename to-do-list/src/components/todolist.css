@@ -7,3 +7,16 @@
     padding: 20px;
     margin-top: 20px;
 }
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #f7ca18;
+    padding: 10px;
+}
+.footer >span{
+    margin: 30px;
+}

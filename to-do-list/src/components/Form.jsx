@@ -1,13 +1,14 @@
 import { useState } from "react"
 import './form.css'
 const Form=({todos,setTodos})=>{
-    const[todo,setTodo]=useState("")
+    const[todo,setTodo]=useState({
+        name:"",
+        done:false
+    })
     const handelSubmit=(e)=>{
-    
-    
         e.preventDefault()
         setTodos([...todos,todo])
-        setTodo(" ")
+        setTodo({name:"",done:false})
        
     }
     return(
@@ -17,9 +18,9 @@ const Form=({todos,setTodos})=>{
         <input 
         className="moderInput"
         type='text' 
-        value={todo} 
+        value={todo.name} 
         placeholder="Enter Todo item...."
-        onChange={(e)=>setTodo(e.target.value)}/>
+        onChange={(e)=>setTodo({name:e.target.value,done:false})}/>
         <button 
         className='btn' 
         type='submit'>Add</button>

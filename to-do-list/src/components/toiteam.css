@@ -23,11 +23,6 @@
    margin-top: -5px;
    cursor: pointer;
 }
-/* 
+.done{
+    text-decoration: line-through;
 }
-.head{
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-} */
